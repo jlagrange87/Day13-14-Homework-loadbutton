@@ -11,7 +11,7 @@ function start(e){
 		}
 		setTimeout(function(){
 			clicked.disabled = false; 
-			$btn.html("Submit")
+			$btn.html("Submit");
 		}, 4000); // Sets disabled to go back to false after 4 seconds and say submit again as well.	
-	})
+	});
 }
