@@ -5,7 +5,7 @@ function start(e){
 
 	$btn.click("#loadButton", function(){
 		var clicked = this; //Set clicked as this to prevent undefined.
-		clicked.disabled = true; //Sets to true so when it's clicked it disbales the button.
+		clicked.disabled = true; //Sets to true so when it's clicked it disables the button.
 		if(clicked.disabled === true){
 			$btn.html("Loading..."); //Changes html to say Loading during disabled status if its true.
 		}
